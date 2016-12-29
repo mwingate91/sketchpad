@@ -1,0 +1,29 @@
+body {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.top {
+	text-align: center;
+}
+
+.container {
+	width: 1200px;
+	margin: 20px auto;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+}
+
+.gridRow {
+	width: auto;
+
+}
+.gridBox {
+	display: inline-block;
+	overflow: hidden;
+}
+
+.gridBox.hover {
+	opacity: 0.1;
+}
